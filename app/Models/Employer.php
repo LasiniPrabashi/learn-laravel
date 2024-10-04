@@ -9,7 +9,7 @@ class Employer extends Model
 {
     use HasFactory;
 
-    protected $table = 'employers';
+//     protected $table = 'employers';
 
     public function jobs(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
